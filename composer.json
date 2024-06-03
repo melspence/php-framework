@@ -1,0 +1,21 @@
+{
+  "name": "melspence/php-framework",
+  "description": "A PHP Framework tutorial project",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mel Spence",
+      "email": "melvillespence@hamnavoesolutions.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "MelSpence\\Framework\\": "Framework/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "6.3.x-dev"
+  }
+}
